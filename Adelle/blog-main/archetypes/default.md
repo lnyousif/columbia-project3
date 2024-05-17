@@ -1,5 +1,5 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
-draft = true
+featured_image = '{{ printf "/images/%s.webp" .File.ContentBaseName }}'
 +++

@@ -1,5 +1,5 @@
 title = "Confident Scientist"
-baseURL = "https://housker.github.io/confidentscientist/"
+baseURL = "https://housker.github.io/columbia-project3/"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 resourceDir = "../resources"
@@ -28,6 +28,10 @@ enableRobotsTXT = true
     title = "Científico confiado"
     weight = 2
     contentDir = "content/es"
+  [languages.ar]
+    title = "العالم الواثق"
+    weight = 2
+    contentDir = "content/ar"
 
 [sitemap]
   changefreq = "monthly"

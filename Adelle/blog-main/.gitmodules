@@ -3,5 +3,5 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "public"]
 	path = public
-	url = https://github.com/housker/confidentscientist.git
+	url = https://github.com/housker/columbia-project3.git
 	branch = main
