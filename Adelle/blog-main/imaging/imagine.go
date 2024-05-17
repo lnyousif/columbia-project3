@@ -139,16 +139,21 @@ type Data struct {
 }
 
 func getPrompt() string {
-	base_filepath := "/Users/adellehousker/fun/website/cs/blog/content"
+	base_filepath := "/Users/adellehousker/fun/ai/Columbia/project3/columbia-project3/Adelle/blog-main/content"
 	source_filepath := fmt.Sprintf("%s/%s", base_filepath, "en/posts")
+	if len(os.Args) < 1 {
+		fmt.Println("Filename required")
+		return ""
+	}
 	source_filename := os.Args[1]
 
+	// Token indices sequence length is longer than the specified maximum sequence length for this model (706 > 77). Running this sequence through the model will result in indexing errors
 	content, err := os.ReadFile(fmt.Sprintf("%s/%s", source_filepath, source_filename))
 	if err != nil {
 		fmt.Printf("err reading file %s\n", err)
 	}
 
-	re_title := regexp.MustCompile(`title = '(\w+)'`)
+	re_title := regexp.MustCompile(`title = '([^\']+)'`)
 	source_title := re_title.FindStringSubmatch(string(content))[1]
 
 	re_body := regexp.MustCompile(`\+{3}(?s).*\+{3}((?s).*)`)
@@ -259,7 +264,14 @@ func (t *LoggingTransport) RoundTrip(req *http.Request) (*http.Response, error) 
 }
 
 func main() {
+	fmt.Println("CALLING IMAGINE")
 	prompt := getPrompt()
+
+	if len(prompt) < 1 {
+		fmt.Println("No prompt for image generation")
+		return
+	}
+
 	data := getData(prompt)
 	body := getBody(prompt, data)
 
@@ -276,7 +288,7 @@ func main() {
 		// },
 	}
 
-	req, err := http.NewRequest("POST", "http://127.0.0.1:9091/api/v1/queue/default/enqueue_batch", bytes.NewBuffer(payload))
+	req, err := http.NewRequest("POST", "http://127.0.0.1:9090/api/v1/queue/default/enqueue_batch", bytes.NewBuffer(payload))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -286,9 +298,9 @@ func main() {
 	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 	req.Header.Set("Cache-Control", "no-cache")
 	req.Header.Set("Connection", "keep-alive")
-	req.Header.Set("Origin", "http://127.0.0.1:9091")
+	req.Header.Set("Origin", "http://127.0.0.1:9090")
 	req.Header.Set("Pragma", "no-cache")
-	req.Header.Set("Referer", "http://127.0.0.1:9091/")
+	req.Header.Set("Referer", "http://127.0.0.1:9090/")
 	req.Header.Set("Sec-Fetch-Dest", "empty")
 	req.Header.Set("Sec-Fetch-Mode", "cors")
 	req.Header.Set("Sec-Fetch-Site", "same-origin")

@@ -40,17 +40,19 @@ func translateText(targetLanguage, text string) (string, error) {
 
 func get_title(content string, lang string) string {
 	re_date := regexp.MustCompile(`date = (.+)`)
-	re_title := regexp.MustCompile(`title = '([\w\s]+)'`)
+	re_title := regexp.MustCompile(`title = '([^\']+)'`)
+	re_image := regexp.MustCompile(`featured_image = '(.+)'`)
 
 	source_date := re_date.FindStringSubmatch(content)[1]
 	source_title := re_title.FindStringSubmatch(content)[1]
+	source_image := re_image.FindStringSubmatch(content)[1]
 
 	translation, err := translateText(lang, source_title)
 	if err != nil {
 		fmt.Printf("title error: %s", err)
 	}
 
-	return fmt.Sprintf("+++\ntitle = '%s'\ndate = %s\n+++", translation, source_date)
+	return fmt.Sprintf("+++\ntitle = '%s'\ndate = %s\nfeatured_image = '%s'\n+++", translation, source_date, source_image)
 }
 
 func get_body(content string, lang string) string {

@@ -2,3 +2,6 @@
 	path = Adelle/blog-main/public
 	url = https://github.com/housker/columbia-project3.git
 	branch = main
+[submodule "Adelle/blog-main/themes/ananke"]
+	path = Adelle/blog-main/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
