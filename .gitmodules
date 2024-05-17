@@ -1,0 +1,4 @@
+[submodule "Adelle/blog-main/public"]
+	path = Adelle/blog-main/public
+	url = https://github.com/housker/columbia-project3.git
+	branch = main

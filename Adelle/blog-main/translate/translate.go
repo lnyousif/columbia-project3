@@ -40,7 +40,7 @@ func translateText(targetLanguage, text string) (string, error) {
 
 func get_title(content string, lang string) string {
 	re_date := regexp.MustCompile(`date = (.+)`)
-	re_title := regexp.MustCompile(`title = '(\w+)'`)
+	re_title := regexp.MustCompile(`title = '([\w\s]+)'`)
 
 	source_date := re_date.FindStringSubmatch(content)[1]
 	source_title := re_title.FindStringSubmatch(content)[1]
@@ -84,7 +84,7 @@ func get_body(content string, lang string) string {
 }
 
 func main() {
-	base_filepath := "/Users/adellehousker/fun/website/cs/blog/content"
+	base_filepath := "/Users/adellehousker/fun/ai/Columbia/project3/columbia-project3/Adelle/blog-main/content"
 	source_filepath := fmt.Sprintf("%s/%s", base_filepath, "en/posts")
 	source_filename := os.Args[1]
 
@@ -94,7 +94,7 @@ func main() {
 	}
 	source_content := string(content)
 
-	for _, lang := range []string{"fr", "es", "no"} {
+	for _, lang := range []string{"fr", "es", "no", "ar"} {
 		fmt.Printf("Translating %s\n", lang)
 		title := get_title(source_content, lang)
 		body := get_body(source_content, lang)
