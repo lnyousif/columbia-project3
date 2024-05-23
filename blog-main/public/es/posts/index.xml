@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Científico confiado</title>
+    <link>https://housker.github.io/columbia-project3/es/posts/</link>
+    <description>Recent content in Posts on Científico confiado</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 17 May 2024 09:46:14 -1000</lastBuildDate>
+    <atom:link href="https://housker.github.io/columbia-project3/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encantamiento</title>
+      <link>https://housker.github.io/columbia-project3/es/posts/24-05-17/</link>
+      <pubDate>Fri, 17 May 2024 09:46:14 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/es/posts/24-05-17/</guid>
+      <description>Forbs dice que es bueno tener una semana laboral de cuatro días. La tecnología moderna nos libera si lo permitimos. Fue creado con algún propósito magnífico e inescrutable. Sus peculiaridades nos invitan al descubrimiento.</description>
+    </item>
+    <item>
+      <title>Walt Whitman (1819 – 1892)</title>
+      <link>https://housker.github.io/columbia-project3/es/posts/24-05-16/</link>
+      <pubDate>Thu, 16 May 2024 22:32:33 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/es/posts/24-05-16/</guid>
+      <description>El pasado y el presente se marchitan: los he llenado y los he vaciado. Y proceder a llenar mi próximo pliegue del futuro.&#xA;¡Oyente allá arriba! ¿Qué tienes que confiarme? Mírame a la cara mientras olfateo el silbido de la tarde, (Talk honestly, no one else hears you, and I stay only a minute longer.)&#xA;¿Me contradigo? Muy bien entonces me contradigo, (I am large, I contain multitudes.)&#xA;Me concentro en los que están cerca, espero en la losa de la puerta.</description>
+    </item>
+    <item>
+      <title>Babel</title>
+      <link>https://housker.github.io/columbia-project3/es/posts/24-05-14/</link>
+      <pubDate>Tue, 14 May 2024 11:12:37 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/es/posts/24-05-14/</guid>
+      <description>Los compañeros con los que estoy haciendo mi proyecto final quieren dejarlo. Estamos intentando entrenar un LLM para traducir texto, y el conjunto de datos es demasiado grande para que lo maneje nuestra CPU y RAM. No quiero dejar de fumar. Saber qué hacer con grandes conjuntos de datos es enormemente importante. Les daré mi opinión de que deberían incluir eso en el plan de estudios. Hasta ahora ni el profesor ni los asistentes saben qué hacer, pero estoy seguro de que podemos resolverlo.</description>
+    </item>
+  </channel>
+</rss>

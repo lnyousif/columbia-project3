@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Confident Scientist</title>
+    <link>https://housker.github.io/columbia-project3/</link>
+    <description>Recent content on Confident Scientist</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 May 2024 09:46:14 -1000</lastBuildDate>
+    <atom:link href="https://housker.github.io/columbia-project3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enchantment</title>
+      <link>https://housker.github.io/columbia-project3/posts/24-05-17/</link>
+      <pubDate>Fri, 17 May 2024 09:46:14 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/posts/24-05-17/</guid>
+      <description>Forbs says it is good to have a four-day work week. Modern technology frees us if we will allow it. It was created for some inscrutable, magnificent purpose. Its peculiarities invite us to discovery.</description>
+    </item>
+    <item>
+      <title>Walt Whitman (1819 – 1892)</title>
+      <link>https://housker.github.io/columbia-project3/posts/24-05-16/</link>
+      <pubDate>Thu, 16 May 2024 22:32:33 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/posts/24-05-16/</guid>
+      <description>The past and present wilt—I have fill&amp;rsquo;d them, emptied them. And proceed to fill my next fold of the future.&#xA;Listener up there! what have you to confide to me? Look in my face while I snuff the sidle of evening, (Talk honestly, no one else hears you, and I stay only a minute longer.)&#xA;Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.</description>
+    </item>
+    <item>
+      <title>Babel</title>
+      <link>https://housker.github.io/columbia-project3/posts/24-05-14/</link>
+      <pubDate>Tue, 14 May 2024 11:12:37 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/posts/24-05-14/</guid>
+      <description>The classmates I&amp;rsquo;m doing my final project with want to quit. We&amp;rsquo;re trying to train an LLM to translate text, and the dataset it too large for our CPU and RAM to handle. I don&amp;rsquo;t want to quit. Knowing what to do with large data sets is enormously important. I&amp;rsquo;ll give feedback that they ought to include that in the curriculum. So far neither the teacher nor the TAs know what to do, but I&amp;rsquo;m sure we can figure it out.</description>
+    </item>
+  </channel>
+</rss>

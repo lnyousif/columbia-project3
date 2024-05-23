@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scientifique confiant</title>
+    <link>https://housker.github.io/columbia-project3/fr/</link>
+    <description>Recent content on Scientifique confiant</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 17 May 2024 09:46:14 -1000</lastBuildDate>
+    <atom:link href="https://housker.github.io/columbia-project3/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enchantement</title>
+      <link>https://housker.github.io/columbia-project3/fr/posts/24-05-17/</link>
+      <pubDate>Fri, 17 May 2024 09:46:14 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/fr/posts/24-05-17/</guid>
+      <description>Forbs dit qu&#39;il est bon d&#39;avoir une semaine de travail de quatre jours. La technologie moderne nous libère si nous le permettons. Il a été créé dans un but impénétrable et magnifique. Ses particularités nous invitent à la découverte.</description>
+    </item>
+    <item>
+      <title>Walt Whitman (1819-1892)</title>
+      <link>https://housker.github.io/columbia-project3/fr/posts/24-05-16/</link>
+      <pubDate>Thu, 16 May 2024 22:32:33 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/fr/posts/24-05-16/</guid>
+      <description>Le passé et le présent se fanent – je les ai remplis, je les ai vidés. Et continuez à remplir mon prochain pli du futur.&#xA;Ecouteur là-haut ! qu&#39;as-tu à me confier ? Regarde-moi en face pendant que je renifle le soir, (Talk honestly, no one else hears you, and I stay only a minute longer.)&#xA;Est-ce que je me contredis ? Très bien alors je me contredis, (I am large, I contain multitudes.</description>
+    </item>
+    <item>
+      <title>Babel</title>
+      <link>https://housker.github.io/columbia-project3/fr/posts/24-05-14/</link>
+      <pubDate>Tue, 14 May 2024 11:12:37 -1000</pubDate>
+      <guid>https://housker.github.io/columbia-project3/fr/posts/24-05-14/</guid>
+      <description>Les camarades de classe avec qui je fais mon projet final veulent arrêter. Nous essayons de train un LLM pour traduire du texte, et le dataset est trop volumineux pour que notre CPU et notre RAM puissent le gérer. Je ne veux pas arrêter. Savoir quoi faire avec de grands ensembles de données est extrêmement important. Je leur dirai qu&#39;ils devraient inclure cela dans le programme. Jusqu&#39;à présent, ni l&#39;enseignant ni les assistants techniques ne savent quoi faire, mais je suis sûr que nous pouvons le comprendre.</description>
+    </item>
+  </channel>
+</rss>
